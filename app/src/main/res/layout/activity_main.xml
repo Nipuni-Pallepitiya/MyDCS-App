@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688"
     tools:context=".MainActivity">
 
     <View
@@ -117,39 +116,19 @@
 =======
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="casual"
-        android:text="Welcome"
-        android:textColor="#F44336"
-        android:textSize="100sp"
-        android:textStyle="italic"
+        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="250dp"
-        android:layout_height="116dp"
-        android:background="#0C009688"
-        android:fontFamily="casual"
-        android:text="To"
-        android:textAlignment="center"
-        android:textColor="#F44336"
-        android:textSize="80sp"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="383dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="515dp"
-        android:layout_height="129dp"
-        android:text="MyDCS-App"
-        android:textColor="#F44336"
-        android:textSize="80sp"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="560dp" />
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiiiii"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
