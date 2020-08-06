@@ -48,6 +48,7 @@
         android:layout_width="166dp"
         android:layout_height="71dp"
         android:background="#1C96C6"
+        android:onClick="displayLogin"
         android:text="@string/login"
         android:textColor="#F6F2F2"
         android:textSize="24sp"
@@ -63,6 +64,7 @@
         android:layout_width="165dp"
         android:layout_height="73dp"
         android:background="#1C96C6"
+        android:onClick="displaySignUp"
         android:text="@string/sign_up"
         android:textColor="#F6F2F2"
         android:textSize="24sp"
@@ -112,7 +114,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.012" />
+        app:layout_constraintVertical_bias="0.012" /><![CDATA[
 =======
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -122,13 +124,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hiiiii"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-
+]]>
 </androidx.constraintlayout.widget.ConstraintLayout>

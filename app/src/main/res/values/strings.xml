@@ -6,4 +6,18 @@
     <string name="to">To</string>
     <string name="mydcsapp">MyDCSApp</string>
     <string name="todo">TODO</string>
+    <string name="Login">Log In</string>
+    <string name="phn">Phone Number</string>
+    <string name="Password">password</string>
+    <string name="Phone">0xx xxxx xxx</string>
+    <string name="Add_Data">Add Data</string>
+    <string name="Share_Data">Share Data</string>
+    <string name="Bill">Bill</string>
+    <string name="Registration">Registration</string>
+    <string name="Full">Full Name</string>
+    <string name="Email">Email Address</string>
+    <string name="Re_Enter">Re-enter password</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+
 </resources>

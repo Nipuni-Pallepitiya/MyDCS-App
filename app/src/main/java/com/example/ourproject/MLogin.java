@@ -6,25 +6,25 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
-public class MainActivity extends AppCompatActivity {
-    public static final String LOGIN = "com.example.ourproject";
+public class MLogin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_m_login);
     }
-    public void displayLogin(View view){
-        Intent intent = new Intent(this,MLogin.class);
-        Button btn = (Button) findViewById(R.id.button);
+    public void displaySelectPage(View view){
+        Intent intent = new Intent(this,MSelect.class);
+        Button btn = (Button) findViewById(R.id.button4);
         startActivity(intent);
-
     }
     public void displaySignUp(View view){
         Intent intent = new Intent(this,MRegister.class);
-        Button btn1 = (Button) findViewById(R.id.button2);
+        Button btn1 = (Button) findViewById(R.id.button3);
         startActivity(intent);
     }
+
 
 }
