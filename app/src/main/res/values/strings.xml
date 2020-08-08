@@ -19,5 +19,13 @@
     <string name="Re_Enter">Re-enter password</string>
     <string name="Edit">Edit</string>
     <string name="Delete">Delete</string>
+    <string name="Bill_Period">Bill Period</string>
+    <string name="Date">20th Aug 2020- 19th Sep 2020</string>
+    <string name="Current">Current Usage</string>
+    <string name="Additional">Additional Data</string>
+    <string name="Total">Total Amount</string>
+    <string name="Last_month">Last Month Aries</string>
+    <string name="Pay">Pay</string>
+
 
 </resources>
