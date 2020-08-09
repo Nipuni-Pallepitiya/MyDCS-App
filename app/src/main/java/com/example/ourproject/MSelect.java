@@ -30,11 +30,13 @@ public class MSelect extends AppCompatActivity {
         Button btn = (Button) findViewById(R.id.button10);
         startActivity(intent);
     }
+    //resirect to the bill using intent
     public void bill(View view){
         Intent intent = new Intent(this,MBill.class);
         Button btn = (Button) findViewById(R.id.button11);
         startActivity(intent);
     }
+    //redirect to the profile using intent
     public void displayProfile(View view){
         Intent intent = new Intent(this,MProfile.class);
             ImageButton FullName = (ImageButton) findViewById(R.id.imageButton);

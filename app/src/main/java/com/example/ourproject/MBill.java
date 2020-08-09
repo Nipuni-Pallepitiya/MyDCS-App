@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MBill extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class MBill extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_m_bill);
 
+        //set value for Textviews
         TextView textView = findViewById(R.id.textView17);
         textView.setText("20th Aug 2020 - 19th Sep 2020");
 
@@ -32,13 +34,16 @@ public class MBill extends AppCompatActivity {
         textView3.setText("Rs.xxx/-");
 
     }
+    //redirect to the my profile page
     public void displayProfile(View view){
         Intent intent = new Intent(this,MProfile.class);
         ImageButton FullName = (ImageButton) findViewById(R.id.imageButton3);
         startActivity(intent);
 
     }
+    //redirect to the Credit card page
     public  void MPayButton(View view){
+        Toast.makeText(MBill.this, "Processing", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this,CCredit_card.class);
         ImageButton FullName = (ImageButton) findViewById(R.id.imageButton3);
         startActivity(intent);
