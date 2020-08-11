@@ -39,7 +39,7 @@ public class MSelect extends AppCompatActivity {
     //redirect to the profile using intent
     public void displayProfile(View view){
         Intent intent = new Intent(this,MProfile.class);
-            ImageButton FullName = (ImageButton) findViewById(R.id.pimageButton);
+            ImageButton FullName = (ImageButton) findViewById(R.id.imageButton);
             startActivity(intent);
 
         }
