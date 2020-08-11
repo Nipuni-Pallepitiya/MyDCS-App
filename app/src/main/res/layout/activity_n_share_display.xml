@@ -8,6 +8,7 @@
     android:backgroundTint="@color/ic_launcher_background"
     tools:context=".NShareDisplay">
 
+
     <View
         android:id="@+id/Nview8"
         android:layout_width="424dp"
