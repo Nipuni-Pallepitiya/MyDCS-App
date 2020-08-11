@@ -1,5 +1,6 @@
 package com.example.ourproject;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.text.TextUtilsCompat;
 
@@ -11,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
+
 
 public class MLogin extends AppCompatActivity {
     EditText phone;
@@ -46,6 +48,6 @@ public class MLogin extends AppCompatActivity {
             Toast.makeText(MLogin.this, "Please enter phone number and password", Toast.LENGTH_SHORT).show();
 
     }
-    }
+}
 
 

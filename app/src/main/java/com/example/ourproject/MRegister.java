@@ -1,5 +1,7 @@
 package com.example.ourproject;
 
+
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -20,6 +22,7 @@ import static com.example.ourproject.R.id.mtrl_picker_header_title_and_selection
 import static com.example.ourproject.R.id.start;
 import static com.example.ourproject.R.id.textView8;
 import static com.example.ourproject.R.id.view;
+
 
 public class MRegister extends AppCompatActivity {
     public static final String FULL_NAME = "com.example.ourproject.FULL_NAME";
@@ -54,10 +57,10 @@ public class MRegister extends AppCompatActivity {
     public void displaySignUp(final View view) {
         FullName = findViewById(editTextTextPersonName2);
         phone = findViewById(editTextTextPersonName);
-       email = findViewById(editTextTextPersonName6);
-       password = findViewById(R.id.editTextTextPersonName5);
-       re_enter = findViewById(R.id.editTextTextPersonName7);
-       signup = findViewById(R.id.button6);
+        email = findViewById(editTextTextPersonName6);
+        password = findViewById(R.id.editTextTextPersonName5);
+        re_enter = findViewById(R.id.editTextTextPersonName7);
+        signup = findViewById(R.id.button6);
 
         if (!FullName.getText().toString().isEmpty() &&!phone.getText().toString().isEmpty() && !email.getText().toString().isEmpty()&&!password.getText().toString().isEmpty() && !re_enter.getText().toString().isEmpty()) {
             Toast.makeText(MRegister.this, "Successfully Registered", Toast.LENGTH_SHORT).show();
