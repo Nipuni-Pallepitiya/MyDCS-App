@@ -24,6 +24,7 @@ import static com.example.ourproject.R.id.textView8;
 import static com.example.ourproject.R.id.view;
 
 public class MRegister extends AppCompatActivity {
+
     public static final String FULL_NAME = "com.example.ourproject.FULL_NAME";
     public static final String PHONE_NUMBER = "com.example.ourproject.PHONE_NUMBER";
     public static final String EMAIL = "com.example.ourproject.EMAIL";

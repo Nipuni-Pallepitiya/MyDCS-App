@@ -39,6 +39,7 @@ public class NShareDisplay extends AppCompatActivity {
 
     }
 
+
     public void NBackClick(View v)
     {
         Intent intent=new Intent(this,NShare_Data.class);

@@ -26,6 +26,7 @@
     <string name="NResultShareDataID">Auto generated</string>
     <string name="NPhnFrm">Phone No From</string>
     <string name="NPhn_To">Phone No To</string>
+
     <string name="NAmount_Data">Amount of Data</string>
     <string name="NDate">Date</string>
     <string name="NPhnFromResult">Auto genetated</string>
