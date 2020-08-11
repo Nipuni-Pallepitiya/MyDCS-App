@@ -8,6 +8,7 @@
     android:backgroundTint="@color/colorAccent"
     tools:context=".NShare_Main">
 
+
     <View
         android:id="@+id/Nview7"
         android:layout_width="424dp"

@@ -110,6 +110,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.522" />
 
+
     <ImageView
         android:id="@+id/imageView13"
         android:layout_width="203dp"
