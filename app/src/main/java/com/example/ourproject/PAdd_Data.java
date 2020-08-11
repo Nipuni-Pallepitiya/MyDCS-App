@@ -4,6 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+
+public class PAdd_Data extends AppCompatActivity {
+
+=======
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -12,6 +17,7 @@ public class PAdd_Data extends AppCompatActivity {
 
     Button btn1,btn2,btn3;
     ImageButton img;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
