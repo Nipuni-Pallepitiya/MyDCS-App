@@ -9,8 +9,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-public class MEditProfile extends AppCompatActivity {
 
+public class MEditProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

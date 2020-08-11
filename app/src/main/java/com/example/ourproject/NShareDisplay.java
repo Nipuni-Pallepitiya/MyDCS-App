@@ -46,6 +46,7 @@ public class NShareDisplay extends AppCompatActivity {
         Button btn1=(Button)findViewById(R.id.Nback);
         startActivity(intent);
 
+
     }
 
     public void NOnClick(View v)

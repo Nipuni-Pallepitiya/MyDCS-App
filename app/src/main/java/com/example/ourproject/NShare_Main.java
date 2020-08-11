@@ -25,6 +25,7 @@ public class NShare_Main extends AppCompatActivity {
     public static final String EXTRA_MESSAGE5 = "com.example.ourproject.MESSAGE5";
 
 
+
     Button btn;
     TextView dataid;
     TextView phnfrom;

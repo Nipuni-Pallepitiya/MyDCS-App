@@ -12,6 +12,7 @@ public class NShare_Data extends AppCompatActivity {
 
 
 
+
     public static final String SHAREDATA="com.example.ourproject";
     @Override
     protected void onCreate(Bundle savedInstanceState) {

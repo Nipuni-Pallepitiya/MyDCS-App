@@ -9,6 +9,7 @@
     tools:context=".NReportDisplay">
 
 
+
     <View
         android:id="@+id/Nview10"
         android:layout_width="424dp"

@@ -1,6 +1,5 @@
 package com.example.ourproject;
 
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,7 +17,6 @@ import android.widget.Toast;
 import static com.example.ourproject.R.*;
 
 public class MProfile extends AppCompatActivity {
-
     private static final String FULL_NAME = "com.example.ourproject";
     private static final String PHONE_NUMBER = "com.example.ourproject";
     private static final String EMAIL = "com.example.ourproject";

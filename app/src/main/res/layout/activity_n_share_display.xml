@@ -10,6 +10,7 @@
     tools:context=".NShareDisplay">
 
 
+
     <View
         android:id="@+id/Nview8"
         android:layout_width="424dp"
