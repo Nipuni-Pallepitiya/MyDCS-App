@@ -15,6 +15,7 @@ import android.widget.Toast;
 
 public class NShare_Main extends AppCompatActivity {
 
+
     public static final String EXTRA_MESSAGE = "com.example.ourproject.MESSAGE";
     public static final String EXTRA_MESSAGE2 = "com.example.ourproject.MESSAGE2";
     public static final String EXTRA_MESSAGE3 = "com.example.ourproject.MESSAGE3";

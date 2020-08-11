@@ -9,25 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NReportDisplay"></activity>
-        <activity android:name=".NReport" />
-        <activity android:name=".NShareDisplay" />
-        <activity android:name=".NShare_Main" />
-        <activity
-            android:name=".MProfile"
-            android:parentActivityName=".MRegister" />
-        <activity
-            android:name=".MBill"
-            android:parentActivityName=".MLogin" />
-        <activity
-            android:name=".NShare_Data"
-            android:parentActivityName=".MLogin" />
-        <activity
-            android:name=".PAdd_Data"
-            android:parentActivityName=".MLogin" />
-        <activity
-            android:name=".MSelect"
-            android:parentActivityName=".MLogin" />
+        <activity android:name=".MProfile" android:parentActivityName=".MRegister"></activity>
+        <activity android:name=".MBill" android:parentActivityName=".MLogin"/>
+        <activity android:name=".NShare_Data" android:parentActivityName=".MLogin"/>
+        <activity android:name=".PAdd_Data" android:parentActivityName=".MLogin" />
+        <activity android:name=".MSelect" android:parentActivityName=".MLogin"/>
         <activity
             android:name=".MRegister"
             android:parentActivityName=".MainActivity" />

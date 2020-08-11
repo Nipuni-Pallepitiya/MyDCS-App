@@ -37,6 +37,7 @@ public class NShareDisplay extends AppCompatActivity {
         textView5.setText(message5);
 
     }
+
     public void NBackClick(View v)
     {
         Intent intent=new Intent(this,NShare_Data.class);

@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".NReport">
 
+
     <View
         android:id="@+id/Nview8"
         android:layout_width="424dp"
