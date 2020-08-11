@@ -9,6 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+=======
+        <activity
+            android:name=".Pdata_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pfixed_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pview_my_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pfixed_package_details"
+            android:parentActivityName=".Pfixed_packages" />
+        <activity
+            android:name=".Pdata_package_details"
+            android:parentActivityName=".Pdata_packages" />
+
+
         <activity android:name=".MEditProfile"></activity>
         <activity android:name=".CCredit_card" />
         <activity
@@ -32,21 +51,6 @@
         <activity
             android:name=".MLogin"
             android:parentActivityName=".MRegister" />
-        <activity
-            android:name=".NShare_Main"
-            android:parentActivityName=".NShare_Data" />
-        <activity
-            android:name=".NShareDisplay"
-            android:parentActivityName=".NShare_Main" />
-        <activity
-            android:name=".NReport"
-            android:parentActivityName=".NShare_Data" />
-        <activity
-            android:name=".NReportDisplay"
-            android:parentActivityName=".NReport" />
-
-
-
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
