@@ -37,7 +37,7 @@ public class MSelect extends AppCompatActivity {
     }
     public void displayProfile(View view){
         Intent intent = new Intent(this,MProfile.class);
-            ImageButton FullName = (ImageButton) findViewById(R.id.imageButton);
+            ImageButton FullName = (ImageButton) findViewById(R.id.pimageButton);
             startActivity(intent);
 
         }
