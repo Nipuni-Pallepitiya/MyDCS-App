@@ -33,4 +33,73 @@
     <string name="MEmail">manudisathmini@gmail</string>
 
 
+=======
+r
+
+
+    <string name="selectpackagebtn">SELECT PACKAGE</string>
+    <string name="addmoredatabtn">ADD MORE DATA</string>
+    <string name="viewmypackagesbtn">VIEW MY PACKAGES</string>
+    <string name="viewdatapack1">VIEW PACKAGE</string>
+    <string name="viewdatapack2">VIEW PACKAGE</string>
+    <string name="viewdatapack3">VIEW PACKAGE</string>
+    <string name="viewdatapack4">VIEW PACKAGE</string>
+    <string name="dpackdetails">PACKAGE DETAILS</string>
+    <string name="fixid">PACKAGE ID</string>
+    <string name="fixname">PACKAGE NAME</string>
+    <string name="fixanytimedata">ANY TIME DATA</string>
+    <string name="fixnightdata">NIGHT TIME DATA</string>
+    <string name="fixpackactivate">ACTIVATE</string>
+    <string name="fixvalidity">VALIDITY</string>
+    <string name="fixsms">SMS</string>
+    <string name="fixvoice">VOICE</string>
+    <string name="fixprice">PRICE</string>
+    <string name="fixpackdetails">PACKAGE DETAILS</string>
+    <string name="adddata">ADD DATA</string>
+    <string name="fixedpackages">FIXED PACKAGES</string>
+    <string name="viewfixpack4">VIEW PACKAGE</string>
+    <string name="viewfixpack3">VIEW PACKAGE</string>
+    <string name="viewfixpack2">VIEW PACKAGE</string>
+    <string name="viewfixpack1">VIEW PACKAGE</string>
+    <string name="dpdateto">DATE TO</string>
+    <string name="dpid">PACKAGE ID</string>
+    <string name="dpname">PACKAGE NAME</string>
+    <string name="dpanytime">ANY TIME DATA</string>
+    <string name="dpnighttime">NIGHT TIME DATA</string>
+    <string name="dpdatefrom">DATE FROM</string>
+    <string name="dpprice">PRICE</string>
+    <string name="dpactivate">ACTIVATE</string>
+
+    <string name="todo1">TODO</string>
+    <string name="pack4">4.Package 4</string>
+    <string name="pack3">3.Package 3</string>
+    <string name="mypackages">MY PACKAGES</string>
+    <string name="pack2">2.Package 2</string>
+    <string name="pack1">1.Package 1</string>
+    <string name="todo2">TODO</string>
+    <string name="fixpack1">WEB STARTER</string>
+    <string name="fixpack2">WEB BOOSTER</string>
+    <string name="fixpack3">WEB FAMILY</string>
+    <string name="fixpack4">WEB PAL</string>
+    <string name="fixvalvoice">50</string>
+    <string name="fixvalpackname">WEB STARTER</string>
+    <string name="fixvalanytimedata">11 GB</string>
+    <string name="fixvalnightdata">17 GB</string>
+    <string name="fixvalsms">50</string>
+    <string name="fixvalvalidity">30 DAYS</string>
+    <string name="fixvalprice">Rs.1000</string>
+    <string name="dpvalid">1</string>
+    <string name="dpvalname">1 DAY INTERNET</string>
+    <string name="todo3">TODO</string>
+    <string name="fixvalid">1</string>
+    <string name="dpvalanytimedata">1 GB</string>
+    <string name="dpvalnightdata">1 GB</string>
+    <string name="dpvaldatefrom">10/08/20</string>
+    <string name="dpvaldateto">10/08/20</string>
+    <string name="dpvalprice">RS.150</string>
+    <string name="datapack4">21 DAY INTERNET</string>
+    <string name="datapack1">1 DAY INTERNET</string>
+    <string name="datapack2">3 DAY INTERNET</string>
+    <string name="datapack3">7 DAY INTERNET</string>
+    <string name="datapackages">DATA PACKAGES</string>
 </resources>
