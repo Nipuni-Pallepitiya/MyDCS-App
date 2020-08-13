@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 public class NReport extends AppCompatActivity {
@@ -17,7 +18,6 @@ public class NReport extends AppCompatActivity {
 
 
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_n_report);
@@ -26,19 +26,19 @@ public class NReport extends AppCompatActivity {
     public void OnClickSubmitReport(View v)
     {
         Intent intent=new Intent(this,NReportDisplay.class);
-
-        //Creating the LayoutInflater instance
-        LayoutInflater li = getLayoutInflater();
-        //Getting the View object as defined in the customtoast.xml file
-        View layout = li.inflate(R.layout.ncustomtoast, (ViewGroup) findViewById(R.id.custom_toast_layout));
-        //Creating the Toast object
-        Toast toast = new Toast(getApplicationContext());
-        toast.setDuration(Toast.LENGTH_LONG);
-        toast.setGravity(Gravity.BOTTOM, 20, 600);
-        toast.setView(layout);//setting the view of custom toast layout
-        toast.show();
         Button btn1=(Button)findViewById(R.id.nbutton2);
-        startActivity(intent);
+        EditText editText5 = (EditText) findViewById(R.id.NeditTextPhone);
+        String message5 = editText5.getText().toString();
+
+
+        if ( !editText5.getText().toString().isEmpty() ) {
+            Toast.makeText(NReport.this, "Processing request", Toast.LENGTH_LONG).show();
+            startActivity(intent);
+
+        } else
+            Toast.makeText(NReport.this, "Please Enter a phone number", Toast.LENGTH_LONG).show();
+
+
 
 
     }

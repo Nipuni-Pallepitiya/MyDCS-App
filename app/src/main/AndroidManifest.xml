@@ -9,8 +9,47 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".Ccashsuccessful"
+            android:parentActivityName=".CcashDetails"/>
+        <activity
+            android:name=".CCredit_card"
+            android:parentActivityName=".MBill" />
+        <activity
+            android:name=".Cupdatecreditdcarddetails"
+            android:parentActivityName=".Ccreditcarddetails" />
+        <activity
+            android:name=".Ccreditcard3"
+            android:parentActivityName=".Ccreditsuccessful" />
+        <activity
+            android:name=".Ccreditsuccessful"
+            android:parentActivityName=".Ccreditcard2" />
+        <activity
+            android:name=".Ccreditcard2"
+            android:parentActivityName=".CCredit_card" />
+        <activity
+            android:name=".CcashDetails"
+            android:parentActivityName=".CCredit_card" />
+        <activity
+            android:name=".Ccreditcarddetails"
+            android:parentActivityName=".Ccreditcard3" />
+        <activity
+            android:name=".Pdata_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pfixed_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pview_my_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pfixed_package_details"
+            android:parentActivityName=".Pfixed_packages" />
+        <activity
+            android:name=".Pdata_package_details"
+            android:parentActivityName=".Pdata_packages" />
         <activity android:name=".MEditProfile"></activity>
-        <activity android:name=".CCredit_card" />
+
         <activity
             android:name=".MProfile"
             android:parentActivityName=".MRegister" />
