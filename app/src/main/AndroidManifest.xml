@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name=".Ccashsuccessful"
             android:parentActivityName=".CcashDetails"/>
@@ -34,6 +35,29 @@
             android:name=".Ccreditcarddetails"
             android:parentActivityName=".Ccreditcard3" />
         <activity android:name=".MEditProfile" />
+=======
+
+=======
+        <activity
+            android:name=".Pdata_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pfixed_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pview_my_packages"
+            android:parentActivityName=".PAdd_Data" />
+        <activity
+            android:name=".Pfixed_package_details"
+            android:parentActivityName=".Pfixed_packages" />
+        <activity
+            android:name=".Pdata_package_details"
+            android:parentActivityName=".Pdata_packages" />
+
+
+        <activity android:name=".MEditProfile"></activity>
+        <activity android:name=".CCredit_card" />
+
         <activity
             android:name=".MProfile"
             android:parentActivityName=".MRegister" />
